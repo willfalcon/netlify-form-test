@@ -1,0 +1,35 @@
+{
+  "name": "netlify-form-test",
+  "private": true,
+  "description": "",
+  "version": "0.1.0",
+  "author": "Will Hawks <willkhawks@gmail.com>",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "NODE_ENV=development gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^2.23.12",
+    "gatsby-plugin-netlify": "^2.3.13",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willfalcon/red-brick-roads.git"
+  },
+  "bugs": {
+    "url": "https://github.com/willfalcon/red-brick-roads/issues"
+  }
+}
